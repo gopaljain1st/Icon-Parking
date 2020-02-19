@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="570dp"
+        android:background="#F8971D"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="510dp"
+            android:background="@drawable/bg1"
+            android:alpha=".8">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_marginTop="85dp"
+                android:layout_marginLeft="15dp"
+                android:text="Best Spaces."
+                android:fontFamily="@font/kanit_medium"
+                android:textSize="35sp"
+                android:textColor="#fff"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_marginTop="120dp"
+                android:layout_marginLeft="15dp"
+                android:text="Best prices."
+                android:fontFamily="@font/kanit_medium"
+                android:textSize="35sp"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="160dp"
+                android:fontFamily="@font/kanit_medium"
+                android:padding="10dp"
+                android:autofillHints="@string/search_hint"
+                android:text="Best Parking."
+                android:textColor="#F8971D"
+                android:textSize="35sp" />
+        </RelativeLayout>
+       <!-- <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/search"
+            android:autofillHints="hello"
+            android:background="@drawable/search"
+            android:hint=" search here"
+            android:iconifiedByDefault="false"
+            />-->
+        <EditText
+            android:gravity="center"
+            android:layout_marginTop="480dp"
+            android:hint="  Search here.."
+            android:inputType="textPostalAddress"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:drawableRight="@drawable/search_symbol"
+            android:background="@drawable/buttonborder"
+            android:backgroundTint="#Fff"
+            android:id="@+id/search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="30dp">
+        <Button
+            android:id="@+id/book"
+            android:layout_centerInParent="true"
+            android:layout_alignParentBottom="true"
+            android:layout_width="350dp"
+            android:layout_height="55dp"
+            android:text="Reserve Your Space"
+            android:textSize="20sp"
+            android:textColor="#ffff"
+            android:textStyle="bold"
+            android:background="@drawable/buttonborder"
+            android:backgroundTint="#F8971D"
+            android:layout_marginBottom="20dp"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="20dp">
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="100dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/bg1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:layout_marginLeft="155dp"
+            android:layout_marginTop="30dp"
+            android:text="DLF MALL"
+            android:id="@+id/mallName"
+            android:textSize="18sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:layout_marginLeft="155dp"
+            android:layout_marginTop="50dp"
+            android:text="Greater Noida"
+            android:id="@+id/mallAddress"
+            android:textSize="18sp"/>
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="155dp"
+            android:src="@drawable/rating"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/Arrival"
+            android:layout_width="match_parent"
+            android:layout_margin="20dp"
+            android:inputType="phone"
+            android:layout_height="wrap_content"
+            android:hint="Arrival Time"
+            android:drawableRight="@drawable/ic_arrow_downward_black_24dp"/>
+        <EditText
+            android:id="@+id/leaving"
+            android:inputType="phone"
+            android:layout_width="match_parent"
+            android:layout_margin="20dp"
+            android:layout_height="wrap_content"
+            android:hint="Leaving Time"
+            android:drawableRight="@drawable/ic_arrow_upward_black_24dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center_horizontal"
+            android:textSize="22dp"
+            android:text="Select The Vehicle Category" />
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/rg"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            >
+            <RadioButton android:id="@+id/twoWheeler"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Two Wheeler"
+
+                />
+            <RadioButton android:id="@+id/fourWheeler"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Four Wheeler" />
+        </RadioGroup>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/vehicleno"
+            android:layout_width="match_parent"
+            android:layout_margin="20dp"
+            android:layout_height="wrap_content"
+            android:hint="Vehicle Number"
+            android:inputType="textAutoCorrect"
+            android:drawableRight="@drawable/regesno"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Duration :"
+            android:id="@+id/duration"
+            android:textSize="20sp"
+            android:layout_margin="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Amount :"
+            android:id="@+id/amount"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"
+            />
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnbook"
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:text="Pay"
+        android:textSize="20sp"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:background="@drawable/buttonborder"
+        android:backgroundTint="#F8971D"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"/>
+</LinearLayout>

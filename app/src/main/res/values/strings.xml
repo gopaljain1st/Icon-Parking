@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">IconParking</string>
+    <string name="search_hint">
+
+
+        <string name="multi_auto_complete_text_view_email">Input multiple email address you want to contact.</string>
+    <string name="multi_auto_complete_text_view_show_input_email">Show Input Email.</string>
+    <string name="show_input_dialog_label">Your Input is :</string>
+
+    <string-array name="email_array">
+        <item>DLF Mall</item>
+        <item>TDL Mall</item>
+        <item>Moments Mall</item>
+    </string-array>
+    </string>
+</resources>
